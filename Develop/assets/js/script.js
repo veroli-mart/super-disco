@@ -2,7 +2,7 @@
 
 var currentDay = document.querySelector("#currentDay");
 currentTime = moment();
-currentDay.textContent = currentTime.format("dddd, MMMM Do- hh:mm");
+currentDay.textContent = currentTime.format("dddd, MMMM Do - hh:mm");
 // select all time blocks, which will also give us acces to the children 
 
 var timeBlocks = Array.from(document.querySelectorAll(".time-block"))
