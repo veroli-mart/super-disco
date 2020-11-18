@@ -5,11 +5,11 @@ The purpose of this wesbite is to help with your busy day-to-day schedule. From 
 
 ## Tools 
 The tools used to build this wonderful site are listed below: 
-    * HTML
-    * JavaScript
-    * moment.js
-    * jQuery
-    * Bootstrap
+    - HTML
+    - JavaScript
+    - moment.js
+    - jQuery
+    - Bootstrap
 
 ## Website 
 When loading the page, this is what you should be greeted with:  
