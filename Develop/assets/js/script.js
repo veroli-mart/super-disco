@@ -85,11 +85,11 @@ loadTasks();
 
     $(".saveBtn").on("click", function() {
 
-        var userInput = $(this).siblings(".textarea").val()
-        var time = $(this).siblings(".textarea").attr('id')
+        var userInput = $(this).siblings(".textarea").val();
+        var time = $(this).siblings(".textarea").attr('id');
         
         tasks[time]= userInput
 
-        localStorage.setItem('tasks', JSON.stringify(tasks))    
+        localStorage.setItem('tasks', JSON.stringify(tasks));    
 
     });
